@@ -1,0 +1,42 @@
+export const epfoColors = [
+	{ order: 4, name: 'green', shade: 'light', cssVar: '--color-epfo-green-light', color: '#98d687' },
+	{ order: 1, name: 'green', shade: 'medium', cssVar: '--color-epfo-green-medium', color: '#6eb663' },
+	{ order: 7, name: 'green', shade: 'dark', cssVar: '--color-epfo-green-dark', color: '#49964f' },
+	{ order: 5, name: 'orange', shade: 'light', cssVar: '--color-epfo-orange-light', color: '#ffbe7d' },
+	{ order: 2,name: 'orange', shade: 'medium', cssVar: '--color-epfo-orange-medium', color: '#f59c3c' },
+	{ order: 8, name: 'orange', shade: 'dark', cssVar: '--color-epfo-orange-dark', color: '#e96b20' },
+	{ order: 3, name: 'blue', shade: 'light', cssVar: '--color-epfo-blue-light', color: '#a0cbe8' },
+	{ order: 0, name: 'blue', shade: 'medium', cssVar: '--color-epfo-blue-medium', color: '#79aacf' },
+	{ order: 6, name: 'blue', shade: 'dark', cssVar: '--color-epfo-blue-dark', color: '#6394be' }
+];
+
+export const countryNames = {
+	AT: 'Austria',
+	BE: 'Belgium',
+	BG: 'Bulgaria',
+	HR: 'Croatia',
+	CY: 'Cyprus',
+	CZ: 'Czech Republic',
+	DK: 'Denmark',
+	EE: 'Estonia',
+	FI: 'Finland',
+	FR: 'France',
+	DE: 'Germany',
+	GR: 'Greece',
+	HU: 'Hungary',
+	IE: 'Ireland, Republic of (EIRE)',
+	IT: 'Italy',
+	LV: 'Latvia',
+	LT: 'Lithuania',
+	LU: 'Luxembourg',
+	MT: 'Malta',
+	NL: 'Netherlands',
+	PL: 'Poland',
+	PT: 'Portugal',
+	RO: 'Romania',
+	SK: 'Slovakia',
+	SI: 'Slovenia',
+	ES: 'Spain',
+	SE: 'Sweden',
+	GB: 'United Kingdom'
+};

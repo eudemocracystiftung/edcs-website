@@ -1,0 +1,201 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+/* @import 'https://unpkg.com/pollen-css'; **/
+@import 'https://unpkg.com/pollen-css@4.6.2/pollen.css';
+@import url(https://fonts.bunny.net/css?family=inria-sans:300,300i,400,400i,700,700i);
+@import url(https://fonts.bunny.net/css?family=montserrat:400,500,600);
+
+:root {
+	--primary-color: #003399;
+	--secondary-color: #ffed4a;
+
+	--color-party-all: transparent;
+	--color-party-ADDE: #2a5783;
+	--color-party-ADIE: #2a5783;
+	--color-party-AEMN: #2a5783;
+	--color-party-AEN: #2a5783;
+	--color-party-AFE: #2a5783;
+	--color-party-ALDE: #a5cfe9;
+	--color-party-APF: #2a5783;
+	--color-party-CVF: #2a5783;
+	--color-party-EAF: #2a5783;
+	--color-party-EAFD: #2a5783;
+	--color-party-ECPM: #376491;
+	--color-party-ECR: #4878a6;
+	--color-party-EDP: #92c0df;
+	--color-party-EFA: #b07aa1;
+	--color-party-EGP: #59a14f;
+	--color-party-EL: #e15759;
+	--color-party-EPP: #6394be;
+	--color-party-EUD: #2a5783;
+	--color-party-Patriots: #2a5783;
+	--color-party-Libertas: #2a5783;
+	--color-party-MELD: #2a5783;
+	--color-party-PES: #ff9d9a;
+
+	--color-no-data: rgb(230, 230, 230);
+
+	--color-slate-100: #f1f5f9;
+	--color-slate-300: #cbd5e1;
+	--color-slate-400: #94a3b8;
+
+	--color-epfo-blue-light: #a0cbe8;
+	--color-epfo-blue-medium: #79aacf;
+	--color-epfo-blue-dark: #6394be;
+	--color-epfo-green-light: #98d687;
+	--color-epfo-green-medium: #6eb663;
+	--color-epfo-green-dark: #49964f;
+	--color-epfo-orange-light: #ffbe7d;
+	--color-epfo-orange-medium: #f59c3c;
+	--color-epfo-orange-dark: #e96b20;
+
+	--color-epfo-primary: var(--color-epfo-green-medium);
+}
+
+body {
+	color: #1e293b;
+	font-family: 'Inria Sans', sans-serif;
+	font-size: var(--scale-0);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: bold;
+	margin: var(--size-4) 0 var(--size-2) 0;
+	color: var(--primary-color);
+}
+
+h5 {
+	margin: var(--size-2) 0 var(--size-2) 0;
+}
+
+ol,
+ul,
+menu {
+	padding: 0 var(--size-8);
+	list-style: auto;
+}
+
+hgroup {
+	max-width: var(--width-md);
+}
+
+article h1 {
+	font-size: var(--scale-6);
+	margin: var(--size-10) 0 var(--size-3) 0;
+}
+
+article h2 {
+	font-size: var(--scale-5);
+	margin: var(--size-10) 0 var(--size-3) 0;
+}
+article h3 {
+	font-size: var(--scale-2);
+	font-weight: normal;
+}
+article h4 {
+	font-size: var(--scale-3);
+	font-weight: normal;
+}
+article h5 {
+	font-size: var(--scale-2);
+	font-weight: normal;
+}
+article h6 {
+	font-size: var(--scale-0);
+	text-transform: uppercase;
+}
+p {
+	margin-bottom: 8px;
+}
+ul {
+	list-style: disc;
+}
+
+li {
+	max-width: 600px;
+	margin-bottom: 8px;
+}
+
+li em {
+	font-weight: bold;
+	color: black;
+}
+
+article .content {
+	max-width: 800px;
+}
+
+a {
+	color: var(--primary-color);
+	text-decoration: underline;
+	text-underline-offset: 2px;
+	word-break: break-all;
+}
+
+.content h2 {
+	font-size: var(--scale-4);
+}
+
+.content h3 {
+	font-size: var(--scale-2);
+	font-weight: normal;
+}
+
+.content h4 {
+	font-size: var(--scale-0);
+	font-weight: normal;
+}
+
+.content h5 {
+	margin-top: var(--size-16);
+	font-size: var(--scale-0);
+	font-weight: normal;
+}
+
+.content h6 {
+	font-size: var(--scale-000);
+	font-weight: bold;
+}
+
+.content p {
+	margin: var(--size-6) 0;
+	text-align: justify;
+}
+
+.content .footnote {
+	font-size: var(--scale-00);
+	font-style: italic;
+	margin: var(--size-4) 0;
+}
+
+.content .added {
+	color: rgb(105, 176, 105);
+}
+
+.content .removed {
+	color: rgb(176, 105, 105);
+}
+
+.content .changed {
+	color: rgb(105, 105, 176);
+}
+
+.content .fixed2 {
+	color: rgb(105, 176, 176);
+}
+
+.iframecenter {
+		margin: 0 auto;
+		width: 50%;
+}
+
+.donationformcenter {
+		margin: 0 auto;
+		width: 75%;
+}
